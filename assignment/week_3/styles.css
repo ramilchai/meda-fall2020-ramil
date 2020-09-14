@@ -1,0 +1,15 @@
+/* 
+    CSS: Cascading Styles Sheets
+        CSS Parts:
+        Selector
+        Rules: Property & Value
+*/
+
+#firstDiv {
+    background-color: grey;
+    margin: 10px;
+}
+
+#otherDiv {
+    background-color: red;
+}
