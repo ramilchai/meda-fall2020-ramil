@@ -14,9 +14,34 @@
     background-color: red;
 }
 
+
+/*This box is exactly 300 pixels wide becuase we add the width,
+borders for each side, and paddings together to end up with 300 pixels.*/
 .box {
-    width: 300px;
-    height: 300px;
+    width: 266px;
+    height: 290px;
     background-color: cornsilk;
-    border-style:
+    border-style: solid;
+    border-width: 5px;
+    border-color: purple;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /*padding-top: 100px;*/
+}
+
+#special-paragraph {
+    font-size: 24px;
+    font-family: "Arial";
+    color: purple;
+    /*text-decoration: overline underline line-through;*/
+    font-weight: 700; /*bold the text */
+    font-style: italic;
+    line-height: 48px;
+    /*direction: rtl;*/
+    /*unicode-bidi: bidi-override;*/
+    text-align: justify;
 }
