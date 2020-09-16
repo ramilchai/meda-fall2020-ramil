@@ -1,0 +1,40 @@
+body {
+    font-family: "Arial";
+    background-color: pink;
+}
+
+#special {
+    color: red;
+}
+
+#first {
+    font-family: "Courier";
+}
+
+.different {
+    font-family: "Impact";
+}
+
+.green {
+    color: green;
+    background-color: lightgreen;
+}
+
+p {
+    font-family: "Monaco";
+    background-color: royalblue;
+}
+
+#margins {
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#paddings {
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
