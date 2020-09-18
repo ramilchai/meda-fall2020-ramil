@@ -39,4 +39,21 @@
     vertical-align: top;
     padding: 20px;
     border: 1px solid darkorange;
+
+}
+
+.gallery {
+    width: 77px; /*468 divided by 4 for 4 gallery, subtracted 2 paddings(left and right) 10+10, subtracked 2 margins(left and right) 10+10 */
+    height: 200px;
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px; /*in case it's inline-block, margin won't collapse to each other. Everyone needs its own matgin space*/
+    margin-right: 10px;
+    margin-bottom: 20px;
+      
+}
+
+#gallery-container {
+    line-height: 0px;
 }
