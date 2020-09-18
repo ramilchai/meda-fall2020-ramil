@@ -1,0 +1,39 @@
+/*Order of Specificity
+ID > Class > Element Selector
+In case the same rule, the later one applies*/
+
+div {
+    background-color: black;
+}
+
+
+#first {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#second {
+    width: 200px;
+    height: 200px;
+}
+
+#third {
+    width: 400px;
+    height: 400px;
+}
+
+.green {
+    background-color: green;
+    border: solid 10px darkgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: purple;
+    background-color: blue;
+}
+
