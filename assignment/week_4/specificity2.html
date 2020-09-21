@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Understanding Specificity</title>
-    <link rel="stylesheet" href="specificity.css">
+    <title>Understanding Specificity Part 2</title>
+    <link rel="stylesheet" href="specificity2.css">
+
+<!--Internal stylesheet, the css is located right inside the same HTML file.-->
+<style>
+    body {
+        background-color: pink;
+        margin: 100px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+</style>
+
 </head>
+
 <body>
+    <a href="#">duckduckgo.com</a>
 
-    <div id="first" class="green"></div>
-    <div id="second" class="red">
+    <header>
         <div></div>
-    </div>
-    <div id="third" class="blue"></div>
+    </header>
 
+    <div>
+        <p><a href="#" >bing.com</a></p>    
+
+        <div>
+            <p class="bold">Hello</p>
+             <ul>
+                 <li><a href="#">google.com</a></li>
+             </ul>   
+             <p><a href="#" class="bold">yahoo.com</a></p>
+        </div>
+    </div>
+
+<!--In-line style-->
+    <footer style="border: dashed red 2px; margin: 20px;">
+        <div></div>
+    </footer>
     
 </body>
 </html>

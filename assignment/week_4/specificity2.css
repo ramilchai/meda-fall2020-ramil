@@ -1,0 +1,65 @@
+/*compare value between 2 selectors; div has value = 1 amd footer div has value = 2*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon; /*!important always rules out everything*/
+}
+
+/*select the div inside footer, then it'll take over the rule on top div*/
+
+footer div {
+    width: 400px;
+    height: 400px;
+    background-color: blue;   
+}
+
+html body footer div {
+    background-color: silver;
+}
+
+header div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+body footer div {
+    background-color: orange;
+}
+
+a {
+    color: purple;
+}
+
+div a {
+    color: red;
+}
+
+/*Ancestor of <a> has to be <p>*/
+p a {
+    color: pink;
+}
+
+/*direct child selector*/
+div > div > p a {
+    color: greenyellow;
+}
+
+.bold {
+    text-decoration: overline;
+}
+
+p > a {
+    font-size: 24px;
+}
+
+/*select all anchor in class bold*/
+a.bold {
+    font-weight: bold;
+}
+
+/*select multi*/
+p, a {
+    
+}
