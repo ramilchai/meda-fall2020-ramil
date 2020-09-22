@@ -1,0 +1,75 @@
+#container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#container header nav ul {
+    border: dashed green 1px;
+    padding-left: 0;
+    width: 275px;
+    text-align: center;
+}
+
+#container header nav ul li {
+    border-style: dashed;
+    border-color: red;
+    border-width: 1px;
+    display: inline;
+
+}
+header {
+    height: 200px;
+    background-color: blanchedalmond;
+}
+
+main {
+    background-color: lightgray;
+    padding: 20px; /*space between an element and parents*/
+    vertical-align: middle;
+}
+
+footer {
+    height: 50px;
+    background-color: grey;
+}
+
+footer p {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#sidebar {
+    width: 150px;
+    height: 1000px;
+    background-color: skyblue;
+    display: inline-block;
+}
+
+#article {
+    width: 468px;
+    height: 958px;
+    background-color: pink;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px solid darkorange;
+
+}
+
+.gallery {
+    width: 77px; /*468 divided by 4 for 4 gallery, subtracted 2 paddings(left and right) 10+10, subtracked 2 margins(left and right) 10+10 */
+    height: 200px;
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px; /*in case it's inline-block, margin won't collapse to each other. Everyone needs its own matgin space*/
+    margin-right: 10px;
+    margin-bottom: 20px;
+      
+}
+
+#gallery-container {
+    line-height: 0px;
+}
