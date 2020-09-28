@@ -101,9 +101,11 @@ footer p {
     margin-left: 10px; /*in case it's inline-block, margin won't collapse to each other. Everyone needs its own matgin space*/
     margin-right: 10px;
     margin-bottom: 20px;
+    vertical-align: top;
       
 }
 
 #gallery-container {
     line-height: 0px;
+   
 }
