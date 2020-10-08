@@ -1,0 +1,69 @@
+Project 2: Portfolio Prep
+
+Colors: I get the color idea from: https://visme.co/blog/website-color-schemes/. It called "Minimal Yet Warm." I think it gives a cool and modern look. Actually I prefer white background but on a second thought, white is kind of boring. 
+	Therefore, I go with Eggshell color, still give a white-clean look but not actually white.
+Body Text: 	Taupe Gray #8E8D8A
+Header Text:	Dark Vanilla #D8C3A5
+Link Text:	Jelly Bean Red #E85A4F (Back-up lighter red #E98075)
+Background:	Eggshell White #EAE7DC
+
+Step A
+HOME: 
+(I seperate it from About page for getting and brief Introduction)
+Fortunately, I am currently located in San Francisco, the home of the largest tech companies in the world. I can't resist the urge of jumping in one of the fastest growing industries in the planet.
+Teching myself web design isn't simple--it takes a lot of dedication and self-discipline. Given an abundant of online resources, i could learn the content and build my portfolio faster and more effiecient at my own speed.
+
+ABOUT:
+Background:
+Having degree in engineering and mathematics gives me a solid foundation in logic and reasoning which are crucial in coding. Attending college gives me years of training in extensive undergraduate computer science, mathematics, and statistics programs. 
+For example, Linear Algebra, Calculus, Multivariable Calulus, Statistic I/II, Differential Equation, Operationals Research, etc.
+Skills: 
+HTML/CSS/JAVASCRIPT, Python, VBA, MPL, R, SAS, Office.
+  
+PROJECT:
+Here is my favorite works I have done during my career.
+Project I:
+Web Design (HTML/CSS/JAVASCRIP)
+Check Out Website I create.
+Project II:
+Data Science (Machine learning using Python)
+Check Out Project I create.
+Project III:
+Data Analysis (using R)
+Check Out Project I create.
+
+CONTACT:
+Contact Form:
+Links:
+Don't be shy to say Hi!
+LinkedIn: ramilc---->link: www.linkedin.com/in/ramilc
+GitHub: ramilchai---->link: https://github.com/ramilchai
+Email: ramil.ming@gmail.com
+
+
+
+Inspiration portfolios:
+David Venturi
+Data Scientist
+Link:	http://davidventuri.com/portfolio
+Pros: 	I have to say David Venturi inspires me in the way that we came from the same engineering background which gave us strong mathematical and logic advantages. 
+	I love white background in the "main" section. It gives a clean look.
+	Each section is seperated nicely. 
+	I really like the big giant image in background as a "header" of each web page. It looks modern and beautiful.
+Cons:	Each box that contains a link to a code is too close to each other. I've found that it could use a little more space in between.
+
+Danny Jones
+3D Designer
+Link:	https://yasly.com/work/
+Pros:	Nice and clean layout with excellent choice of white backgroud color which contracts with the artworks.
+Cons:	I know very little about the artist in the home web page. I don't even get the name. It could be because the minimal art style. I perfer to have at least a name on it.
+
+Robby Leonardi
+Freelancer/Art and Animation Designer
+Link:	http://www.rleonardi.com/
+Pros:	This is an awesome website showcasing his talent in web and interactive design. 
+	The combination of colors is phenomenal. I love his color choice.  
+	The social network link bottons are nice. I might adopt this design.
+Cons:	Every content is in a seperate link which has to be loaded to get an access.
+	In his portfolio, it looks pretty messy in my opinion.
+	 
