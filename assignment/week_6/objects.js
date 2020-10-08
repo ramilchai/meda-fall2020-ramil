@@ -95,4 +95,4 @@ var myArray2 = [
     400
 ];
 
-myArray2[2]();
+myArray2[2](); // Runs the function in the array at index 2
