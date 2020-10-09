@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>HTML Forms</title>
+
+    <style>
+        /* Styling form  */
+        body {
+            background-color: navajowhite;
+        }
+
+        form {
+            width: 400px;
+        }
+        form > input {
+            font-family:  Arial;
+            font-size: 24px;
+            font-weight: bold;
+            background-color: blanchedalmond;
+            color: indianred;
+            border-color: indianred;
+            border-style: solid;
+            border-width: 4px;
+            border-radius: 6px;
+            padding: 12px;
+            margin: 10px;
+        }
+
+        form > label {
+            font-family: Arial;
+            font-size: 18px;
+            color: indianred;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<form>
+    <!-- creating form -->
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname"/><br />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email"/><br />
+
+    <label for="password">Password:</label>
+    <input type="password" id="password"/><br />
+
+    <label for="emaillist">Please send me many emails</label>
+    <input type="checkbox" id="emaillist"/><br />
+    
+    <label for="favfood1">Pizza</label>
+    <input type="radio" name="buttons" id="favfood1"/>
+    <label for="favfood2">Burrito</label>
+    <input type="radio" name="buttons" id="favfood2"/>
+    <label for="favfood3">Burger</label>
+    <input type="radio" name="buttons" id="favfood3"/><br />
+
+    <textarea cols="100" rows="4"></textarea><br />
+
+    <input type="reset" />
+    <input type="submit" />
+
+    
+
+</form>    
+
+    
+
+
+</body>
+</html>
