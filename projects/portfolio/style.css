@@ -1,0 +1,63 @@
+/* cancel all default style in html
+I'll try to make it as responsive as possible*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Eggshell White color as described in the design_brief*/ 
+body {
+    background-color: #EAE7DC; 
+    color: #8E8D8A;
+}
+
+
+
+
+nav {
+    display: flex;
+    min-height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Header text color: Dark Vanilla as described in the design_brief */
+#author-name {
+    color: #D8C3A5;
+    margin-left: 0.5%;
+    margin-right: auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Styling links: I think the nav bar looks better with the same color as the body text*/
+.nav-bar {
+    display: grid;
+    margin-left: auto;
+    margin-right: 0.5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    width: 25%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* Taupe Gray color as described in the design_brief*/
+.nav-bar a {
+    color: #8E8D8A;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+/* footer text design */
+#footer p {
+    text-align: center;
+    font-size: 14px;
+}
