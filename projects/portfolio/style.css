@@ -68,3 +68,34 @@ nav {
     text-align: center;
     font-size: 14px;
 }
+
+
+
+/*------------------Styling Home page--------------------*/
+#home-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/home/home-img-resized.jpg) no-repeat;
+
+}
+
+#home-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+#home-text-container {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 50%;
+
+}
+/*------------------Styling About page--------------------*/
+
+/*------------------Styling Projects page--------------------*/
+
+/*------------------Styling Contact page--------------------*/
