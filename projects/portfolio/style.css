@@ -24,10 +24,17 @@ nav {
 }
 
 /* Header text color: Dark Vanilla as described in the design_brief */
-#author-name {
-    color: #D8C3A5;
+.author-name-container {
     margin-left: 0.5%;
     margin-right: auto;
+}
+
+.author-name-container a {
+    text-decoration: none;
+}
+
+.author-name {
+    color: #D8C3A5;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -57,7 +64,7 @@ nav {
 
 
 /* footer text design */
-#footer p {
+.footer p {
     text-align: center;
     font-size: 14px;
 }
