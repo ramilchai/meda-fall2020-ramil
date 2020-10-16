@@ -69,9 +69,13 @@ nav {
     font-size: 14px;
 }
 
+.footer {
+    height: 10vh;
+}
 
 
 /*------------------Styling Home page--------------------*/
+/* Introduction Part */
 #home-pic-container {
     display: flex;
     justify-content: space-around;
@@ -87,12 +91,24 @@ nav {
     font-weight: bold;
 }
 
+
 #home-text-container {
     display: block;
-    margin: 20px auto;
-    width: 400px;
-    height: 50%;
+    margin: 40px auto;
+    width: 40%;
+    height: 25%;
+}
 
+#home-text-container > h2 {
+    line-height: 24px;
+    padding: 20px 0px;
+    text-align: center;
+}
+#home-text-container > p  {
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*------------------Styling About page--------------------*/
 
