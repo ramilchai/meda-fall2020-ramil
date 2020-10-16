@@ -82,7 +82,6 @@ nav {
     align-items: center;
     height: 350px;
     background:url(images/home/home-img-resized.jpg) no-repeat;
-
 }
 
 #home-pic-container > p {
@@ -111,7 +110,65 @@ nav {
     margin-bottom: 20px;
 }
 /*------------------Styling About page--------------------*/
+#about-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/about/about-img-resized.jpg) no-repeat;
+}
 
+#about-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+section {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 20px;
+    max-width: 60%;
+    padding: 24px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+img.avatar {
+    width: 200px;
+    margin: auto auto;
+}
+
+section.about-section > div > h2 {
+    line-height: 24px;
+    padding: 20px 0px;
+    min-width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section.about-section > div > p {
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: inline-block;
+    
+}
+
+.skills-container ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    list-style-type: none;
+}
 /*------------------Styling Projects page--------------------*/
 
 /*------------------Styling Contact page--------------------*/
