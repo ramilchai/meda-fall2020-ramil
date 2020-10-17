@@ -124,6 +124,19 @@ nav {
     margin-right: auto;
 }
 
+/*styling Button*/
+button {
+    background-color: #E85A4F; 
+    border: none;
+    border-radius: 5px;
+    color: #EAE7DC;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 /*------------------Styling Home page--------------------*/
 /* Introduction Part */
 #home-pic-container {
@@ -224,5 +237,66 @@ section.about-section > div > p {
     list-style-type: none;
 }
 /*------------------Styling Projects page--------------------*/
+main > h2 {
+    text-align: center;
+    padding-top: 40px;
+}
 
+#projects-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/about/about-img-resized.jpg) no-repeat;
+}
+
+#projects-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.projects-container > div {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.detail-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    text-align: center;
+    padding-top: 40px;
+    border: #8E8D8A 2px solid;
+}
+
+.text-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.name-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    border-top: #8E8D8A 2px solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.name-box > div p {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
 /*------------------Styling Contact page--------------------*/
