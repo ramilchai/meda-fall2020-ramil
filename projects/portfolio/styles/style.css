@@ -367,21 +367,21 @@ main > h2 {
     text-decoration: none;
 }
 
-.firstname {
+#firstname {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.lastname {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.email {
+#lastname {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.message {
+#email {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#message {
     margin-top: 5px;
     margin-bottom: 5px;
 }
