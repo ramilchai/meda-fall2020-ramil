@@ -300,3 +300,96 @@ main > h2 {
     text-transform: uppercase;
 }
 /*------------------Styling Contact page--------------------*/
+#contact-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/about/about-img-resized.jpg) no-repeat;
+}
+
+#contact-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.contact-container > div {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-img-box {
+    grid-area: box1;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-text-box {
+    grid-area: box2;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-links-box {
+    grid-area: box3;
+    justify-self: center;
+    align-self: top;
+}
+
+.contact-links-list {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.contact-info-box {
+    display: grid;
+    border: #8E8D8A 2px solid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "box1 box2"
+        "box3 box3";       
+}
+
+.contact-links-list > li > a {
+    color: #8E8D8A;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.firstname {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lastname {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.email {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.message {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
