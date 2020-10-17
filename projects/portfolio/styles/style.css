@@ -1,0 +1,395 @@
+/* cancel all default style in html
+I'll try to make it as responsive as possible*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Eggshell White color as described in the design_brief*/ 
+body {
+    background-color: #EAE7DC; 
+    color: #8E8D8A;
+}
+
+
+
+
+nav {
+    display: flex;
+    min-height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Header text color: Dark Vanilla as described in the design_brief */
+.author-name-container {
+    margin-left: 0.5%;
+    margin-right: auto;
+}
+
+.author-name-container a {
+    text-decoration: none;
+}
+
+.author-name {
+    color: #D8C3A5;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Styling links: I think the nav bar looks better with the same color as the body text*/
+.nav-bar {
+    display: grid;
+    margin-left: auto;
+    margin-right: 0.5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    width: 25%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* Taupe Gray color as described in the design_brief*/
+.nav-bar a {
+    color: #8E8D8A;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+/* footer text design */
+.footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer {
+    display: block;
+    height: 10vh;
+}
+
+/*Styling quick-links section */
+.quick-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.quick-links-container {
+    margin: auto;
+    background-color: #E85A4F;
+    border: #E85A4F solid 2px;
+    border-radius: 5px;
+    
+}
+
+.quick-links-container a {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    text-transform: uppercase;
+    color: #EAE7DC;
+    text-decoration: none;
+}
+
+/*Styling social-links section */
+.social-links {
+    display: block;
+}
+
+.social-links-container {
+    max-width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.social-links-container ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    list-style-type: none;
+
+}
+
+/* Styling footer Nav bar */
+.footer-nav-bar > nav > .nav-bar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*styling Button*/
+button {
+    background-color: #E85A4F; 
+    border: none;
+    border-radius: 5px;
+    color: #EAE7DC;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*------------------Styling Home page--------------------*/
+/* Introduction Part */
+#home-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/home/home-img-resized.jpg) no-repeat;
+}
+
+#home-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+
+#home-text-container {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    height: 25%;
+}
+
+#home-text-container > h2 {
+    line-height: 24px;
+    padding: 20px 0px;
+    text-align: center;
+}
+#home-text-container > p  {
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*------------------Styling About page--------------------*/
+#about-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/about/about-img-resized.jpg) no-repeat;
+}
+
+#about-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+section {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 20px;
+    max-width: 60%;
+    padding: 24px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+
+/* centering the portrait */
+.img-container {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+img.avatar {
+    width: 200px;
+    margin: auto auto;
+}
+
+/* Styling text */
+section.about-section > div > h2 {
+    line-height: 24px;
+    padding: 20px 0px;
+    min-width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+section.about-section > div > p {
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: inline-block;
+    
+}
+
+.skills-container ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    list-style-type: none;
+}
+/*------------------Styling Projects page--------------------*/
+main > h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#projects-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/projects/projects-rescale.jpg) no-repeat;
+}
+
+#projects-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.projects-container > div {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.detail-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    text-align: center;
+    padding-top: 40px;
+    border: #8E8D8A 2px solid;
+}
+
+.text-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.name-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    border-top: #8E8D8A 2px solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.name-box > div p {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+/*------------------Styling Contact page--------------------*/
+#contact-pic-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    background:url(images/contact/contact-rescale.jpg) no-repeat;
+}
+
+#contact-pic-container > p {
+    color: #E85A4F;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.contact-container > div {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-img-box {
+    grid-area: box1;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-text-box {
+    grid-area: box2;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.contact-links-box {
+    grid-area: box3;
+    justify-self: center;
+    align-self: top;
+}
+
+.contact-links-list {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.contact-info-box {
+    display: grid;
+    border: #8E8D8A 2px solid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "box1 box2"
+        "box3 box3";       
+}
+
+.contact-links-list > li > a {
+    color: #8E8D8A;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.firstname {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lastname {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.email {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.message {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
